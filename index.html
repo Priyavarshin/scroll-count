@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolling Counter Animations</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">Counter Up Animations</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Accusantium quasi magnam officiis temporibus dolorem pariatur, voluptas,
+             voluptatem quas quae laboriosam aliquam at incidunt distinctio possimus vitae,
+              exercitationem sunt corrupti in eligendi qui cupiditate placeat veritatis laudantium mollitia.
+               Porro delectus quibusdam voluptatibus, aut optio praesentium quae, unde ipsum sunt, repellat 
+               adipisci aliquid maxime ea minus repellendus. Fuga hic tempora laborum totam architecto magni
+                itaque sunt doloremque? Molestias quos aut voluptatum a! Exercitationem aperiam dolore, ut, 
+                odit neque, voluptatem non necessitatibus voluptates incidunt accusamus atque. Maxime doloremque
+                 repellendus veniam quo doloribus adipisci commodi eum quos cupiditate est, voluptates unde 
+                 accusantium laborum ratione modi nulla velit possimus sit fuga similique molestiae aliquid,
+                  amet ullam et. Itaque debitis exercitationem aspernatur atque optio autem obcaecati quia 
+                  laudantium iusto rem, tempora, provident amet, maiores eaque consequuntur sint totam! 
+                  Sapiente amet accusamus illo dolor magnam repellendus necessitatibus facilis cum velit 
+                  incidunt, modi asperiores voluptatibus aspernatur aliquid eligendi?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis recusandae saepe explicabo cum quaerat
+             excepturi officiis omnis neque, doloremque eveniet dolores. Magnam voluptates
+              nesciunt dolores suscipit, debitis temporibus aut consectetur nemo architecto quas, 
+              asperiores illo enim dolore odit quasi repellat. Ipsum, perspiciatis officia.
+               Veniam minima ipsa porro hic suscipit dolorem perferendis exercitationem dolor ullam 
+               atque facilis fuga quod rem a maxime in minus distinctio, laborum labore quisquam odit? 
+               Suscipit consectetur beatae est, optio vel, officia consequatur quia aspernatur earum 
+               quidem accusamus reprehenderit nisi et soluta fugiat illum doloremque a tenetur, aperiam
+                ipsam obcaecati laboriosam corrupti architecto! Temporibus, magni, laudantium corporis tenetur
+                 tempore fugiat laborum dolores consequuntur architecto repellendus maiores dignissimos, quod animi.
+                  Voluptas qui totam ipsam! Aspernatur mollitia aliquam animi.</p>       
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptates ut delectus repudiandae qui impedit distinctio ducimus
+             incidunt molestiae inventore consequuntur dolore alias eius velit voluptatibus,
+              culpa sunt nemo tempora. Quas tempore molestias, labore impedit natus sed perferendis 
+              a ex illo asperiores esse doloremque dicta vel distinctio! Voluptas ad omnis ea quia est! 
+              Quam quisquam deleniti doloremque totam accusantium excepturi natus esse autem mollitia sit
+               nobis ex veritatis quasi veniam necessitatibus sint debitis voluptate amet consequuntur eius dolor,
+                soluta quas doloribus corporis! Quam eligendi quo vero quos tenetur iusto ipsam incidunt 
+            laboriosam maiores asperiores! Aut eos repellendus nulla magnam, voluptatibus quaerat.</p>   
+    </div>
+    <div class="counter-up">
+        <div class="content">
+            <div class="box">
+                <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i></div>
+                <div class="counter">724</div>
+                <div class="text">Country</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-envelope-open" aria-hidden="true"></i></div>
+                <div class="counter">724</div>
+                <div class="text">brand</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-user-circle" aria-hidden="true"></i></div>
+                <div class="counter">724</div>
+                <div class="text">product</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
+                <div class="counter">724</div>
+                <div class="text">Distributors</div>
+            </div>
+            <div class="box">
+                <div class="icon"><i class="fa fa-cutlery" aria-hidden="true"></i></div>
+                <div class="counter">724</div>
+                <div class="text">Customers</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1200
+                });
+        });
+    </script>
+</body>
+</html>
